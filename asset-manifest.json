@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/website-for-a-lawyer/static/css/main.0a5d9429.css",
+    "main.js": "/website-for-a-lawyer/static/js/main.ee2cbc2c.js",
+    "static/media/militaryBg.jpg": "/website-for-a-lawyer/static/media/militaryBg.58a44b0077020d3815a8.jpg",
+    "static/media/insta.svg": "/website-for-a-lawyer/static/media/insta.a0a9a83448ddb5827d70493a84d37806.svg",
+    "static/media/phoneCircle.svg": "/website-for-a-lawyer/static/media/phoneCircle.a186dccb6816a7134524a4c4b1bb07c0.svg",
+    "static/media/viber.svg": "/website-for-a-lawyer/static/media/viber.75b89f5b4b38022eb43209cdf9073288.svg",
+    "static/media/whatsapp.svg": "/website-for-a-lawyer/static/media/whatsapp.091ff5a800f73af75f3cfbc222ec33de.svg",
+    "static/media/headerIcon.svg": "/website-for-a-lawyer/static/media/headerIcon.0a5f59eff8a66d31f9a68d9eddd322e7.svg",
+    "static/media/facebook.svg": "/website-for-a-lawyer/static/media/facebook.dead278ba45ecebed58089d3a6e424fd.svg",
+    "static/media/instagram.svg": "/website-for-a-lawyer/static/media/instagram.672c99222cfd5481bfbf162317554794.svg",
+    "static/media/phoneIcon.svg": "/website-for-a-lawyer/static/media/phoneIcon.17af976ea217a570a49cc31451e065c7.svg",
+    "index.html": "/website-for-a-lawyer/index.html",
+    "static/media/telegram.svg": "/website-for-a-lawyer/static/media/telegram.0f573d36fa8a79ba0f5b86e93cb3cf71.svg",
+    "static/media/listIcon.svg": "/website-for-a-lawyer/static/media/listIcon.a2648b4e8362a7b157df.svg",
+    "static/media/arrowDown.svg": "/website-for-a-lawyer/static/media/arrowDown.444d820a9849fb1e8b108d4fffc794df.svg",
+    "static/media/tallArrow.svg": "/website-for-a-lawyer/static/media/tallArrow.b41502f6db0a6f714976b80a7042db58.svg",
+    "static/media/close.svg": "/website-for-a-lawyer/static/media/close.eeaaa3966c6f414617b9bbed5be3cacd.svg",
+    "static/media/ua.svg": "/website-for-a-lawyer/static/media/ua.bf6ea1ce28490b2c476ed39c999e1f24.svg",
+    "main.0a5d9429.css.map": "/website-for-a-lawyer/static/css/main.0a5d9429.css.map",
+    "main.ee2cbc2c.js.map": "/website-for-a-lawyer/static/js/main.ee2cbc2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a5d9429.css",
+    "static/js/main.ee2cbc2c.js"
+  ]
+}
