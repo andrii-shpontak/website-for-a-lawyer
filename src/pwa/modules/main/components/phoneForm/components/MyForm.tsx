@@ -18,8 +18,9 @@ const PhoneInput = ({ ...props }) => {
   );
 };
 
-export function MyForm() {
+export function MyForm({ status }: { status: string }) {
   const { errors } = useFormikContext<TPhoneForm>();
+  console.log(status);
 
   return (
     <Form noValidate className={styles.form}>

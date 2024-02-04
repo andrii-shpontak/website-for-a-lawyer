@@ -22,7 +22,7 @@ const formValidationScheme = Yup.object({
 });
 
 export function PhoneForm() {
-  const { handleSubmit } = useHandlers();
+  const { handleSubmit, requestStatus } = useHandlers();
   return (
     <div id="form" className={styles.container}>
       <div className={styles.title}>
@@ -38,7 +38,7 @@ export function PhoneForm() {
         validateOnBlur={false}
         validateOnChange={false}
         onSubmit={handleSubmit}>
-        <MyForm />
+        <MyForm status={requestStatus} />
       </Formik>
     </div>
   );
