@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website-for-a-lawyer/static/css/main.0a5d9429.css",
-    "main.js": "/website-for-a-lawyer/static/js/main.ee2cbc2c.js",
+    "main.js": "/website-for-a-lawyer/static/js/main.02a2049d.js",
     "static/media/militaryBg.jpg": "/website-for-a-lawyer/static/media/militaryBg.58a44b0077020d3815a8.jpg",
     "static/media/insta.svg": "/website-for-a-lawyer/static/media/insta.a0a9a83448ddb5827d70493a84d37806.svg",
     "static/media/phoneCircle.svg": "/website-for-a-lawyer/static/media/phoneCircle.a186dccb6816a7134524a4c4b1bb07c0.svg",
@@ -19,10 +19,10 @@
     "static/media/close.svg": "/website-for-a-lawyer/static/media/close.eeaaa3966c6f414617b9bbed5be3cacd.svg",
     "static/media/ua.svg": "/website-for-a-lawyer/static/media/ua.bf6ea1ce28490b2c476ed39c999e1f24.svg",
     "main.0a5d9429.css.map": "/website-for-a-lawyer/static/css/main.0a5d9429.css.map",
-    "main.ee2cbc2c.js.map": "/website-for-a-lawyer/static/js/main.ee2cbc2c.js.map"
+    "main.02a2049d.js.map": "/website-for-a-lawyer/static/js/main.02a2049d.js.map"
   },
   "entrypoints": [
     "static/css/main.0a5d9429.css",
-    "static/js/main.ee2cbc2c.js"
+    "static/js/main.02a2049d.js"
   ]
 }
