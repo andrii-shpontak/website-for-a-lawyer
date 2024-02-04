@@ -2,6 +2,7 @@
   "name": "landing-of-lawyer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andrii-shpontak.github.io/website-for-a-lawyer",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -24,6 +25,8 @@
     "yup": "^1.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,6 +55,7 @@
     "@types/node-sass": "^4.11.7",
     "@types/react-input-mask": "^3.0.5",
     "@types/react-transition-group": "^4.4.10",
+    "gh-pages": "^6.1.1",
     "sass": "^1.70.0"
   }
 }
