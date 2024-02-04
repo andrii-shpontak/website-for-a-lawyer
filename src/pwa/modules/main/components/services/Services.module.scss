@@ -1,0 +1,34 @@
+.container {
+  text-align: center;
+  color: #111;
+  margin-bottom: 5rem;
+  span {
+    color: #666;
+  }
+  ul {
+    margin-top: 3rem;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+  }
+  li {
+    padding-left: 5rem;
+    margin-bottom: 3rem;
+    position: relative;
+  }
+  li::before {
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../../../../../assets/images/icons/listIcon.svg');
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    left: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 2rem;
+  }
+}
