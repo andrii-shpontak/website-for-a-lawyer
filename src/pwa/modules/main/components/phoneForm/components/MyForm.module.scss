@@ -44,6 +44,17 @@
     justify-content: center;
     align-items: center;
   }
+  .messageWrapper {
+    height: 9rem;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    border: 0.063rem solid #fff !important;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+  }
   .phoneFieldWrapper {
     height: 3rem;
     margin: 1rem 0;
@@ -61,7 +72,8 @@
       margin-right: 0.5rem;
     }
   }
-  input {
+  input,
+  textarea {
     width: 100%;
     background-color: transparent;
     border: none;
@@ -70,7 +82,16 @@
     &:focus {
       outline: none;
       border: none;
+      background-color: transparent;
     }
+  }
+  input:-internal-autofill-selected {
+    background-color: transparent !important;
+    color: #fff important;
+  }
+  input:-webkit-autofill {
+    background-color: transparent !important;
+    color: #fff important;
   }
   .errors {
     padding: 1rem;

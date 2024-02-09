@@ -2,7 +2,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { useRef, useState } from 'react';
 
 import { ReactComponent as Insta } from '../../../../../assets/images/icons/insta.svg';
-import { ReactComponent as Phone } from '../../../../../assets/images/icons/phoneCircle.svg';
+import { ReactComponent as Phone } from '../../../../../assets/images/icons/whatsapp.svg';
 import { ReactComponent as Telegram } from '../../../../../assets/images/icons/telegram.svg';
 import styles from './Contacts.module.scss';
 
@@ -37,7 +37,10 @@ export function Contacts() {
               <a href="https://t.me/Violeta_kryvanych07" target="_blank" rel="noreferrer">
                 <Telegram />
               </a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.instagram.com/violeta_kryvanych_law/"
+                target="_blank"
+                rel="noreferrer">
                 <Insta />
               </a>
             </div>

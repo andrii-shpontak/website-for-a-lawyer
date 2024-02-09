@@ -3,7 +3,7 @@ import styles from './About.module.scss';
 
 export function About() {
   const handleCall = () => {
-    window.location.href = 'tel:+380777777777';
+    window.location.href = 'https://t.me/Violeta_kryvanych07';
   };
 
   const onScrollToForm = () => {
@@ -28,25 +28,29 @@ export function About() {
 
   return (
     <section className={styles.container}>
-      <h1>
-        Юридична компанія
-        <br />
-        Private Lawyer
-      </h1>
-      <p>
-        <strong>Військові юристи</strong> юридичної компанії <strong>Private Lawyer</strong> мають
-        великий досвід з вирішення проблематичних питань військовослужбовців та допоможуть відновити
-        Ваші порушені права.
-      </p>
-      <div className={styles.btnWrapper}>
-        <button onClick={onScrollToForm} className={styles.freeConversation}>
-          Замовити консультацію
-        </button>
-        <button onClick={handleCall} className={`${styles.freeConversation} ${styles.phoneButton}`}>
-          Зателефонувати: +380 77 777 77 77
-        </button>
-        <div onClick={onScrollToCompany} className={styles.arrowWrapper}>
-          <ArrowDown className={styles.arrowDown} />
+      <div className={styles.wrapper}>
+        {/* <h1>
+          Юридична компанія
+          <br />
+          Private Lawyer
+        </h1>
+        <p>
+          <strong>Військові юристи</strong> юридичної компанії <strong>Private Lawyer</strong> мають
+          великий досвід з вирішення проблематичних питань військовослужбовців та допоможуть
+          відновити Ваші порушені права.
+        </p> */}
+        <div className={styles.btnWrapper}>
+          <button onClick={onScrollToForm} className={styles.freeConversation}>
+            Замовити консультацію
+          </button>
+          <button
+            onClick={handleCall}
+            className={`${styles.freeConversation} ${styles.phoneButton}`}>
+            Зателефонувати: +380 77 777 77 77
+          </button>
+          <div onClick={onScrollToCompany} className={styles.arrowWrapper}>
+            <ArrowDown className={styles.arrowDown} />
+          </div>
         </div>
       </div>
     </section>

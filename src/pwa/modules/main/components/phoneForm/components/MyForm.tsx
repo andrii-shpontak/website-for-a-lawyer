@@ -7,6 +7,7 @@ import styles from './MyForm.module.scss';
 type TPhoneForm = {
   name: string;
   phone: string;
+  message: string;
 };
 
 const PhoneInput = ({ ...props }) => {
@@ -25,17 +26,27 @@ export function MyForm({ status }: { status: string }) {
   return (
     <Form noValidate className={styles.form}>
       <div className={styles.nameFieldWrapper}>
-        <Field type="text" name="name" placeholder="Ім'я" />
+        <Field type="text" name="name" placeholder="Ім'я" autofill={false} />
       </div>
       <div className={styles.phoneFieldWrapper}>
         <UaFlag className={styles.flag} />
         <span>+380</span>
-        <PhoneInput name="phone" />
+        <PhoneInput name="phone" autofill={false} />
+      </div>
+      <div>
+        <Field
+          className={styles.messageWrapper}
+          as="textarea"
+          name="message"
+          placeholder="Коротко опишіть тему"
+          autofill={false}
+        />
       </div>
       {(errors.name || errors.phone) && (
         <div className={styles.errors}>
           <ErrorMessage name="name" component="div" />
           <ErrorMessage name="phone" component="div" />
+          <ErrorMessage name="message" component="div" />
         </div>
       )}
       <button type="submit">Відправити</button>

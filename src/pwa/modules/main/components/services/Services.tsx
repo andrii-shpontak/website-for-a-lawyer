@@ -4,48 +4,23 @@ export function Services() {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h2>Our services</h2>
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsam harum commodi
-          explicabo provident aut.
-        </span>
+        <h2>Перелік послуг</h2>
       </div>
       <ul>
+        <li>Допомога в оформленні статусу УБД</li>
         <li>
-          Random position from <br />
-          our services
+          <strong>Написання різних рапортів:</strong>
+          <br />
+          про переведення, звільнення, скерування на лікування, на отримання відпустки і т.д.
         </li>
-        <li>
-          Random position from <br />
-          our services
-        </li>
-        <li>
-          Random position from <br />
-          our services
-        </li>
-        <li>
-          Random position from <br />
-          our services
-        </li>
-        <li>
-          Random position from <br />
-          our services
-        </li>
-        <li>
-          Random position from <br />
-          our services
-        </li>
-        <li>
-          Random position from <br />
-          our services
-        </li>
-        <li>
-          Random position from <br />
-          our services
-        </li>
-        <li>
-          Random position from <br />
-          our services
+        <li>Юридичний супровід звільнення з військової служби</li>
+        <li>Оскарження висновку ВЛК</li>
+        <li>Відстрочка від мобілізації</li>
+        <li>Допомога в отриманні додаткової грошової винагороди за період лікування і т.д.</li>
+        <li>Повний супровід у переведенні до іншої військової частини</li>
+        <li>Допомога з виплатами ОГД та компенсації при загибелі військовослужбовця</li>
+        <li className={styles.oddLastLi}>
+          Та інші питання, які пов'язані з проходженням військової служби
         </li>
       </ul>
     </div>

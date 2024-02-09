@@ -6,17 +6,26 @@
     color: #666;
   }
   ul {
+    margin: 0 auto;
+    max-width: 75rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 3rem;
     list-style-type: none;
     padding-left: 0;
-    font-size: 1rem;
+    padding-right: 1rem;
     font-weight: 600;
     text-align: left;
+    position: relative;
   }
   li {
     padding-left: 5rem;
     margin-bottom: 3rem;
     position: relative;
+    font-size: 1.5rem;
+  }
+  .oddLastLi {
+    left: 50%;
   }
   li::before {
     content: '';
@@ -30,5 +39,16 @@
     top: 50%;
     transform: translateY(-50%);
     margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    ul {
+      grid-template-columns: 1fr;
+    }
+    .oddLastLi {
+      left: unset;
+    }
   }
 }

@@ -6,11 +6,11 @@ export function Company() {
     <div id="company" className={styles.container}>
       <div className={styles.logoWrapper}>
         <Logo className={styles.logo} />
-        <p>Private Lawyer</p>
-        <span>юридична компанія</span>
+        <p>Криванич Віолета</p>
+        <span>Військовий юрист</span>
       </div>
-      <div className={styles.about}>
-        <h2>About us</h2>
+      {/* <div className={styles.about}> */}
+      {/* <h2>About us</h2>
         <span>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, delectus animi natus libero
           magnam consequuntur ipsa perferendis dicta cumque iure?
@@ -22,8 +22,8 @@ export function Company() {
           assumenda quam ab natus ea ipsum. Fuga obcaecati reiciendis minima hic placeat officiis!
           Nulla quia esse in suscipit recusandae, similique accusamus quidem tempora sunt,
           voluptatem debitis nesciunt adipisci non.
-        </span>
-      </div>
+        </span> */}
+      {/* </div> */}
     </div>
   );
 }

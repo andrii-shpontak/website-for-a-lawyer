@@ -7,6 +7,7 @@ const chatId = process.env.REACT_APP_CHAT_ID || '';
 type TData = {
   name: string;
   phone: string;
+  message: string;
 };
 
 const statuses = {
@@ -23,7 +24,7 @@ export function useHandlers() {
     try {
       setRequestStatus(statuses.PENDING);
       const phoneNumber = `+380` + data.phone.replace(/\D/g, '');
-      const message = `Нові повідомлення від: ${data.name}. \nНомер телефону: ${phoneNumber}`;
+      const message = `Нові повідомлення від: ${data.name}.\nНомер телефону: ${phoneNumber}\nТема: ${data.message}`;
       await axios.post(`https://api.telegram.org/bot${botToken}/sendMessage`, {
         chat_id: chatId,
         text: message,
