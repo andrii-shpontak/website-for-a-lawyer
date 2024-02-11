@@ -2,7 +2,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { useRef, useState } from 'react';
 
 import { ReactComponent as Insta } from '../../../../../assets/images/icons/insta.svg';
-import { ReactComponent as Phone } from '../../../../../assets/images/icons/whatsapp.svg';
+import { ReactComponent as Phone } from '../../../../../assets/images/icons/whatsappBig.svg';
 import { ReactComponent as Telegram } from '../../../../../assets/images/icons/telegram.svg';
 import styles from './Contacts.module.scss';
 

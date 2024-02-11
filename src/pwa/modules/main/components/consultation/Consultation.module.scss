@@ -1,14 +1,21 @@
 .container {
   padding: 5rem 1.5rem;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
     url('../../../../../assets//images/backgrounds/militaryBg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
+  .wrapper {
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: #fff !important;
+  }
+  span {
+    font-size: 1.25rem;
+  }
   .arrowDown {
     margin-top: 2.5rem;
     height: 3rem;

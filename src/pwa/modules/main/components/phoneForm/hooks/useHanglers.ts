@@ -32,6 +32,9 @@ export function useHandlers() {
       setRequestStatus(statuses.SUCCESS);
     } catch (error) {
       setRequestStatus(statuses.FAIL);
+      setTimeout(() => {
+        setRequestStatus(statuses.IDLE);
+      }, 5000);
     }
   };
   return { handleSubmit, requestStatus };

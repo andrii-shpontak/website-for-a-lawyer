@@ -1,3 +1,5 @@
+import './index.scss';
+
 import {
   About,
   Company,
@@ -12,16 +14,18 @@ import {
 
 export function MainPage() {
   return (
-    <div>
+    <>
       <Header />
-      <Contacts />
-      <About />
-      <Company />
-      <Services />
-      <Consultation />
-      <Info />
-      <PhoneForm />
+      <main>
+        <Contacts />
+        <About />
+        <Company />
+        <Services />
+        <Consultation />
+        <Info />
+        <PhoneForm />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }

@@ -14,7 +14,7 @@ export function Header() {
   };
 
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.menuContainer} onClick={toggleMenu}>
         <span />
         <div className={`${styles.burgerMenu} ${isOpen ? styles.open : ''}`}>
@@ -36,19 +36,19 @@ export function Header() {
             timeout={500}>
             <div ref={dropDownLayerRef} className={styles.dropDownLayer}>
               <MainIcon className={styles.mainIcon} />
-              <span className={styles.title}>private Lawyer</span>
-              <span className={styles.subtitle}>Юридична компанія</span>
+              <span className={styles.title}>Криванич Віолета</span>
+              <span className={styles.subtitle}>Військовий юрист</span>
               <div className={styles.phoneContainer}>
                 <PhoneIcon />
                 <span className={styles.phoneNumber}>
                   <a href="tel:+380777777777">+380 77 777 77 77</a>
                 </span>
               </div>
-              <span className={styles.messengers}>ЗВЕРТАЙТЕСЬ: VIBER, SIGNAL,WHATSAPP</span>
+              <span className={styles.messengers}>ЗВЕРТАЙТЕСЬ: TELEGRAM, WHATSAPP, VIBER</span>
             </div>
           </CSSTransition>
         )}
       </TransitionGroup>
-    </div>
+    </header>
   );
 }

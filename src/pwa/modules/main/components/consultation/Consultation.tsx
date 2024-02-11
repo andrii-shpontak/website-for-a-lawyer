@@ -13,14 +13,16 @@ export function Consultation() {
   };
   return (
     <div className={styles.container}>
-      <h2>Отримати консультацію з військових справ</h2>
-      <span>
-        Для отримання консультації - натисніть кнопку та Заповніть форму, і ми Вам зателефонуємо
-      </span>
-      <ArrowDown className={styles.arrowDown} />
-      <button onClick={onScrollToForm} className={styles.getBtn}>
-        Отримати консультацію
-      </button>
+      <div className={styles.wrapper}>
+        <h2>Отримати консультацію з військових справ</h2>
+        <span>
+          Для отримання консультації - натисніть кнопку та Заповніть форму, і ми Вам зателефонуємо
+        </span>
+        <ArrowDown className={styles.arrowDown} />
+        <button onClick={onScrollToForm} className={styles.getBtn}>
+          Отримати консультацію
+        </button>
+      </div>
     </div>
   );
 }

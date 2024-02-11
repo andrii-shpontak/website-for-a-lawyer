@@ -1,7 +1,10 @@
 import * as Yup from 'yup';
 
+import { ErrorMessage } from './components/ErrorMessage/ErrorMessage';
 import { Formik } from 'formik';
-import { MyForm } from './components/MyForm';
+import { Loader } from './components/Loader/Loader';
+import { MyForm } from './components/MyForm/MyForm';
+import { SuccessMessage } from './components/SuccessMessage/SuccessMessage';
 import styles from './PhoneForm.module.scss';
 import { useHandlers } from './hooks/useHanglers';
 
@@ -24,12 +27,7 @@ const formValidationScheme = Yup.object({
 
 export function PhoneForm() {
   const { handleSubmit, requestStatus } = useHandlers();
-  const handleDownloadClick = () => {
-    window.open(
-      'https://drive.google.com/file/d/14DarPIJjNSdaln7EBaUgpZEIRnHP91yI/view?usp=sharing',
-      '_blank',
-    );
-  };
+
   return (
     <div id="form" className={styles.container}>
       <div className={styles.wrapper}>
@@ -43,15 +41,21 @@ export function PhoneForm() {
             кнопку "Відправити"
           </p>
         </div>
-        <Formik
-          initialValues={initialFormValues}
-          validationSchema={formValidationScheme}
-          validateOnBlur={false}
-          validateOnChange={false}
-          onSubmit={handleSubmit}>
-          <MyForm status={requestStatus} />
-        </Formik>
-        <button onClick={handleDownloadClick}>Завантажити файл</button>
+        <div className={styles.formWrapper}>
+          {requestStatus === 'idle' && (
+            <Formik
+              initialValues={initialFormValues}
+              validationSchema={formValidationScheme}
+              validateOnBlur={false}
+              validateOnChange={false}
+              onSubmit={handleSubmit}>
+              <MyForm />
+            </Formik>
+          )}
+          {requestStatus === 'pending' && <Loader />}
+          {requestStatus === 'fail' && <ErrorMessage />}
+          {requestStatus === 'success' && <SuccessMessage />}
+        </div>
       </div>
     </div>
   );

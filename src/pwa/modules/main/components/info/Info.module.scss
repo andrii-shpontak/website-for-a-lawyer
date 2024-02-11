@@ -1,10 +1,14 @@
 .container {
   padding: 4rem 1rem;
-
+  .wrapper {
+    margin: 0 auto;
+    max-width: 50rem;
+  }
   .title {
     text-align: center;
     span {
       color: #666;
+      font-size: 1.25rem;
     }
     margin-bottom: 4rem;
   }
@@ -33,6 +37,15 @@
             margin: 1rem 0;
             text-align: left;
             font-size: 1rem;
+          }
+        }
+        a {
+          display: flex;
+          align-items: center;
+          svg {
+            width: 2rem;
+            height: 2rem;
+            margin-right: 1rem;
           }
         }
       }

@@ -15,7 +15,6 @@
 
   .btnWrapper {
     margin-top: 5rem;
-    // background-color: #111;
     .arrowWrapper {
       height: 4.5rem;
       display: flex;
@@ -55,5 +54,11 @@
   }
   100% {
     transform: translateY(1rem);
+  }
+}
+
+@media only screen and (min-width: 78rem) {
+  .container {
+    background-position: top;
   }
 }

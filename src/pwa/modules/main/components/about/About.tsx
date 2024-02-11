@@ -29,16 +29,6 @@ export function About() {
   return (
     <section className={styles.container}>
       <div className={styles.wrapper}>
-        {/* <h1>
-          Юридична компанія
-          <br />
-          Private Lawyer
-        </h1>
-        <p>
-          <strong>Військові юристи</strong> юридичної компанії <strong>Private Lawyer</strong> мають
-          великий досвід з вирішення проблематичних питань військовослужбовців та допоможуть
-          відновити Ваші порушені права.
-        </p> */}
         <div className={styles.btnWrapper}>
           <button onClick={onScrollToForm} className={styles.freeConversation}>
             Замовити консультацію

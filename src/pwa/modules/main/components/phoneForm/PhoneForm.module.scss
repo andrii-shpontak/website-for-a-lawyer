@@ -6,9 +6,15 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
   .wrapper {
     max-width: 40rem;
     margin: 0 auto;
+    color: #fff !important;
+  }
+  .formWrapper {
+    min-height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

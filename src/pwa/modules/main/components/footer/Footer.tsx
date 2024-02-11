@@ -15,32 +15,37 @@ export function Footer() {
   return (
     <div className={styles.container}>
       <div className={styles.info}>
-        <h2>Наші контакти</h2>
-        <p>
-          Працюємо кожного дня з 08:00 до 20:00. Просто зателефонуйте і ми допоможемо вирішити
-          будь-які Ваші питання.
-        </p>
+        {' '}
+        <div className={styles.wrapper}>
+          <h2>Наші контакти</h2>
+          <p>
+            Працюємо кожного дня з 08:00 до 20:00. Просто зателефонуйте і ми допоможемо вирішити
+            будь-які Ваші питання.
+          </p>
 
-        <div className={styles.cred}>
-          <p>
-            <strong>Телефон:</strong> +380-77-777-77-77
-          </p>
-          <p>
-            <strong>Email:</strong> example@domain.com
-          </p>
+          <div className={styles.cred}>
+            <p>
+              <strong>Телефон:</strong> +380-77-777-77-77
+            </p>
+            <p>
+              <strong>Email:</strong> example@domain.com
+            </p>
+          </div>
         </div>
       </div>
-      <div className={styles.links}>
-        <div className={styles.icons}>
-          <Viber />
-          <WhatsApp />
-          <Instagram />
-          <Facebook />
+      <footer className={styles.links}>
+        <div className={styles.wrapper}>
+          <div className={styles.icons}>
+            <Viber />
+            <WhatsApp />
+            <Instagram />
+            <Facebook />
+          </div>
+          <button onClick={scrollToTop}>
+            Нагору <Arrow />
+          </button>
         </div>
-        <button onClick={scrollToTop}>
-          Нагору <Arrow />
-        </button>
-      </div>
+      </footer>
     </div>
   );
 }

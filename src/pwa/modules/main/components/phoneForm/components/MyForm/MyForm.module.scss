@@ -70,6 +70,7 @@
     }
     span {
       margin-right: 0.5rem;
+      color: #fff;
     }
   }
   input,
@@ -79,19 +80,14 @@
     border: none;
     font-size: 1rem;
     color: #fff;
-    &:focus {
+    &:focus,
+    &:active,
+    &:hover {
       outline: none;
       border: none;
+      color: #fff;
       background-color: transparent;
     }
-  }
-  input:-internal-autofill-selected {
-    background-color: transparent !important;
-    color: #fff important;
-  }
-  input:-webkit-autofill {
-    background-color: transparent !important;
-    color: #fff important;
   }
   .errors {
     padding: 1rem;
