@@ -12,8 +12,7 @@ export function Info() {
       <ThemeProvider theme={AccordionTheme}>
         <div className={styles.wrapper}>
           <div className={styles.title}>
-            <h2>Актуальні питання</h2>
-            <span>Наші військові юристи найчастіше отримують наступні питання від клієнтів:</span>
+            <span>Найчастіші питання які ми отримуємо від наших клієнтів:</span>
           </div>
           <div className={styles.tabs}>
             {tabs.map((tab, index) => (

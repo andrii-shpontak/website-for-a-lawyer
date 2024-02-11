@@ -16,7 +16,7 @@ export function Consultation() {
       <div className={styles.wrapper}>
         <h2>Отримати консультацію з військових справ</h2>
         <span>
-          Для отримання консультації - натисніть кнопку та Заповніть форму, і ми Вам зателефонуємо
+          Для отримання консультації - натисніть кнопку та Заповніть форму, і ми з Вами зв'яжемось
         </span>
         <ArrowDown className={styles.arrowDown} />
         <button onClick={onScrollToForm} className={styles.getBtn}>

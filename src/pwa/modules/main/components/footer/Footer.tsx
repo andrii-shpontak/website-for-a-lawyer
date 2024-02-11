@@ -15,12 +15,11 @@ export function Footer() {
   return (
     <div className={styles.container}>
       <div className={styles.info}>
-        {' '}
         <div className={styles.wrapper}>
           <h2>Наші контакти</h2>
           <p>
-            Працюємо кожного дня з 08:00 до 20:00. Просто зателефонуйте і ми допоможемо вирішити
-            будь-які Ваші питання.
+            Робочий графік:
+            <br />З 9:00 до 19:00
           </p>
 
           <div className={styles.cred}>
