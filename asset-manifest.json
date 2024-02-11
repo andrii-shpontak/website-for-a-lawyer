@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-for-a-lawyer/static/css/main.411e1a26.css",
-    "main.js": "/website-for-a-lawyer/static/js/main.84f8a461.js",
+    "main.css": "/website-for-a-lawyer/static/css/main.8dbcdf8a.css",
+    "main.js": "/website-for-a-lawyer/static/js/main.ff9af348.js",
     "static/media/bg4.png": "/website-for-a-lawyer/static/media/bg4.aa3d71057d80ab4e62dd.png",
     "static/media/militaryBg.jpg": "/website-for-a-lawyer/static/media/militaryBg.58a44b0077020d3815a8.jpg",
     "static/media/рапорт_лікування перерване.docx": "/website-for-a-lawyer/static/media/рапорт_лікування перерване.b62449646c8ed8f98da8.docx",
@@ -32,11 +32,11 @@
     "static/media/tallArrow.svg": "/website-for-a-lawyer/static/media/tallArrow.b41502f6db0a6f714976b80a7042db58.svg",
     "static/media/close.svg": "/website-for-a-lawyer/static/media/close.eeaaa3966c6f414617b9bbed5be3cacd.svg",
     "static/media/ua.svg": "/website-for-a-lawyer/static/media/ua.bf6ea1ce28490b2c476ed39c999e1f24.svg",
-    "main.411e1a26.css.map": "/website-for-a-lawyer/static/css/main.411e1a26.css.map",
-    "main.84f8a461.js.map": "/website-for-a-lawyer/static/js/main.84f8a461.js.map"
+    "main.8dbcdf8a.css.map": "/website-for-a-lawyer/static/css/main.8dbcdf8a.css.map",
+    "main.ff9af348.js.map": "/website-for-a-lawyer/static/js/main.ff9af348.js.map"
   },
   "entrypoints": [
-    "static/css/main.411e1a26.css",
-    "static/js/main.84f8a461.js"
+    "static/css/main.8dbcdf8a.css",
+    "static/js/main.ff9af348.js"
   ]
 }
