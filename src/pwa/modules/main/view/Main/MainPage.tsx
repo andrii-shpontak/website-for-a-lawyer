@@ -16,15 +16,13 @@ export function MainPage() {
   return (
     <>
       <Header />
-      <main>
-        <Contacts />
-        <About />
-        <Company />
-        <Services />
-        <Consultation />
-        <Info />
-        <PhoneForm />
-      </main>
+      <Contacts />
+      <About />
+      <Company />
+      <Services />
+      <Consultation />
+      <Info />
+      <PhoneForm />
       <Footer />
     </>
   );

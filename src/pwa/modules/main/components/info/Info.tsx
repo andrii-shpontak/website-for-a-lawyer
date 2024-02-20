@@ -22,15 +22,25 @@ export function Info() {
                   aria-controls={`panel${index}-content`}
                   id={`panel${index}-header`}
                   className={styles.accordionTitle}>
-                  {tab.title} {index + 1}
+                  {tab.title}
                 </AccordionSummary>
                 <AccordionDetails>
                   <div className={styles.context}>
-                    <p>{tab.subtitle}</p>
+                    {tab.subtitle && <p>{tab.subtitle}</p>}
+                    {tab.description && (
+                      <span className={styles.description}>{tab.description}</span>
+                    )}
                     <ul>
-                      {tab.steps.map((step, indexStep) => (
+                      {tab.steps?.map((step, indexStep) => (
                         <li key={`${index} ${indexStep}`}>{step}</li>
                       ))}
+                      {tab.extraSteps && (
+                        <ol>
+                          {tab.extraSteps.map((step, indexExtra) => (
+                            <li key={`${index} ${indexExtra}`}>{step}</li>
+                          ))}
+                        </ol>
+                      )}
                     </ul>
                     <a href={tab.document} download={tab.docName}>
                       <DocIcon />
