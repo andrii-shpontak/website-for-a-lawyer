@@ -42,10 +42,14 @@ export function Info() {
                         </ol>
                       )}
                     </ul>
-                    <a href={tab.document} download={tab.docName}>
-                      <DocIcon />
-                      Отримати зразок заяви
-                    </a>
+
+                    {tab.docs &&
+                      tab.docs.map((doc, i) => (
+                        <a key={i} href={doc.docLink} download={doc.docName}>
+                          <DocIcon />
+                          {doc.docTitle}
+                        </a>
+                      ))}
                   </div>
                 </AccordionDetails>
               </Accordion>
