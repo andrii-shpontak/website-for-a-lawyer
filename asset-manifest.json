@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/website-for-a-lawyer/static/css/main.ddc5c042.css",
-    "main.js": "/website-for-a-lawyer/static/js/main.71ccf622.js",
+    "main.css": "/website-for-a-lawyer/static/css/main.daa46563.css",
+    "main.js": "/website-for-a-lawyer/static/js/main.22a553b2.js",
     "static/media/bg4.png": "/website-for-a-lawyer/static/media/bg4.aa3d71057d80ab4e62dd.png",
     "static/media/militaryBg.jpg": "/website-for-a-lawyer/static/media/militaryBg.58a44b0077020d3815a8.jpg",
-    "static/media/рапорт_лікування перерване.docx": "/website-for-a-lawyer/static/media/рапорт_лікування перерване.b62449646c8ed8f98da8.docx",
-    "static/media/рапорт_лікування безперервне.docx": "/website-for-a-lawyer/static/media/рапорт_лікування безперервне.76455a062a915ee28ae0.docx",
+    "static/media/заява оскарження рішення ВЛК.pdf": "/website-for-a-lawyer/static/media/заява оскарження рішення ВЛК.d45158818bf4ca72ac75.pdf",
     "static/media/Рапорт_на_ім’я_командира_віиськовоі_частини_з_проханням_видати_направлення.docx": "/website-for-a-lawyer/static/media/Рапорт_на_ім’я_командира_віиськовоі_частини_з_проханням_видати_направлення.8751774c3675abc3124e.docx",
+    "static/media/Рапорт_на_отримання_матеріальної_допомоги_для_вирішення_соціально.docx": "/website-for-a-lawyer/static/media/Рапорт_на_отримання_матеріальної_допомоги_для_вирішення_соціально.e16e6aa0d625523a55ad.docx",
     "static/media/Рапорт на проходження ВЛК.docx": "/website-for-a-lawyer/static/media/Рапорт на проходження ВЛК.e42171e16daa4e31e757.docx",
     "static/media/Рапорт_на_отримання_додатковоі_грошовоі_винагороди_v.docx": "/website-for-a-lawyer/static/media/Рапорт_на_отримання_додатковоі_грошовоі_винагороди_v.da9e0de651007b48d029.docx",
+    "static/media/рапорт_на_виплату_на_оздоровлення.docx": "/website-for-a-lawyer/static/media/рапорт_на_виплату_на_оздоровлення.e38f2a5dc7d4b5258fc5.docx",
+    "static/media/Рапорт_на_відпустку_за_станом_здоров’я_на_підставі_довідки_ВЛК.docx": "/website-for-a-lawyer/static/media/Рапорт_на_відпустку_за_станом_здоров’я_на_підставі_довідки_ВЛК.58133ea45852d897c77e.docx",
     "static/media/Заява на виплату ОГД.docx": "/website-for-a-lawyer/static/media/Заява на виплату ОГД.a1a2b95f8f94c74c0250.docx",
-    "static/media/Скарга_на_бездіяльність_командира_віиськовоі_частини_d.docx": "/website-for-a-lawyer/static/media/Скарга_на_бездіяльність_командира_віиськовоі_частини_d.0fee5ad079808919ecd7.docx",
     "static/media/Заява_на_виплату_ОГД_члена_сім’ї_загиблого.docx": "/website-for-a-lawyer/static/media/Заява_на_виплату_ОГД_члена_сім’ї_загиблого.d8838efa4996c2040faf.docx",
-    "static/media/Рапорт_про_надання_відпустки_за_станом_здоров’я_до_30_днів_d.docx": "/website-for-a-lawyer/static/media/Рапорт_про_надання_відпустки_за_станом_здоров’я_до_30_днів_d.742dee0f1ae6e76f8d92.docx",
-    "static/media/рапорт на переведення.docx": "/website-for-a-lawyer/static/media/рапорт на переведення.6fda82e94197f834d330.docx",
     "static/media/Рапорт_про_отримання_довідки_про_обставини_поранення_d.docx": "/website-for-a-lawyer/static/media/Рапорт_про_отримання_довідки_про_обставини_поранення_d.61f8f643caf109b4833e.docx",
     "static/media/docIcon.svg": "/website-for-a-lawyer/static/media/docIcon.7cb93824b48b1fcda1988ffa2c7af1c6.svg",
     "static/media/insta.svg": "/website-for-a-lawyer/static/media/insta.1c9a97e6abf8ca43d6d95ac759c14bbd.svg",
@@ -32,11 +31,11 @@
     "static/media/tallArrow.svg": "/website-for-a-lawyer/static/media/tallArrow.b41502f6db0a6f714976b80a7042db58.svg",
     "static/media/close.svg": "/website-for-a-lawyer/static/media/close.eeaaa3966c6f414617b9bbed5be3cacd.svg",
     "static/media/ua.svg": "/website-for-a-lawyer/static/media/ua.bf6ea1ce28490b2c476ed39c999e1f24.svg",
-    "main.ddc5c042.css.map": "/website-for-a-lawyer/static/css/main.ddc5c042.css.map",
-    "main.71ccf622.js.map": "/website-for-a-lawyer/static/js/main.71ccf622.js.map"
+    "main.daa46563.css.map": "/website-for-a-lawyer/static/css/main.daa46563.css.map",
+    "main.22a553b2.js.map": "/website-for-a-lawyer/static/js/main.22a553b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc5c042.css",
-    "static/js/main.71ccf622.js"
+    "static/css/main.daa46563.css",
+    "static/js/main.22a553b2.js"
   ]
 }
