@@ -41,7 +41,7 @@ export function Header() {
               <div className={styles.phoneContainer}>
                 <PhoneIcon />
                 <span className={styles.phoneNumber}>
-                  <a href="tel:+380777777777">+380 77 777 77 77</a>
+                  <a href="tel:+380509136672">+380 50 913 66 72</a>
                 </span>
               </div>
               <span className={styles.messengers}>ЗВЕРТАЙТЕСЬ: TELEGRAM, WHATSAPP, VIBER</span>

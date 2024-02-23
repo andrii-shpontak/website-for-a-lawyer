@@ -30,6 +30,18 @@ export function Info() {
                     {tab.description && (
                       <span className={styles.description}>{tab.description}</span>
                     )}
+                    {tab.textLink && (
+                      <a
+                        className={styles.description}
+                        href={tab.textLink}
+                        target="_blank"
+                        rel="noreferrer">
+                        {tab.textLink}
+                      </a>
+                    )}
+                    {tab.descrContinue && (
+                      <span className={styles.description}>{tab.descrContinue}</span>
+                    )}
                     <ul>
                       {tab.steps?.map((step, indexStep) => (
                         <li key={`${index} ${indexStep}`}>{step}</li>

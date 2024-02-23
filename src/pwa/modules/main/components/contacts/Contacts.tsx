@@ -2,8 +2,8 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { useRef, useState } from 'react';
 
 import { ReactComponent as Insta } from '../../../../../assets/images/icons/insta.svg';
-import { ReactComponent as Phone } from '../../../../../assets/images/icons/whatsappBig.svg';
 import { ReactComponent as Telegram } from '../../../../../assets/images/icons/telegram.svg';
+import { ReactComponent as WhatsApp } from '../../../../../assets/images/icons/whatsappBig.svg';
 import styles from './Contacts.module.scss';
 
 export function Contacts() {
@@ -31,8 +31,8 @@ export function Contacts() {
             }}
             timeout={500}>
             <div ref={contactsRef} className={styles.smallIconsContainer}>
-              <a href="tel:+380777777777">
-                <Phone />
+              <a href="https://wa.me/380509136672">
+                <WhatsApp />
               </a>
               <a href="https://t.me/Violeta_kryvanych07" target="_blank" rel="noreferrer">
                 <Telegram />

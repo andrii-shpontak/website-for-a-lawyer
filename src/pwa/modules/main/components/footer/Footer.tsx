@@ -23,22 +23,37 @@ export function Footer() {
           </p>
 
           <div className={styles.cred}>
-            <p>
-              <strong>Телефон:</strong> +380-77-777-77-77
-            </p>
-            <p>
-              <strong>Email:</strong> example@domain.com
-            </p>
+            <a href="tel:+380509136672">
+              <p>
+                <strong>Телефон:</strong> +380 50 913 66 72
+              </p>
+            </a>
+            <a href="mailto: violetakryvanych@gmail.com">
+              <p>
+                <strong>Email:</strong> violetakryvanych@gmail.com
+              </p>
+            </a>
           </div>
         </div>
       </div>
       <footer className={styles.links}>
         <div className={styles.wrapper}>
           <div className={styles.icons}>
+            {/* <a href="#" target="_blank" rel="noreferrer"> */}
             <Viber />
-            <WhatsApp />
-            <Instagram />
+            {/* </a> */}
+            <a href="https://wa.me/380509136672" target="_blank" rel="noreferrer">
+              <WhatsApp />
+            </a>
+            <a
+              href="https://www.instagram.com/violeta_kryvanych_law/"
+              target="_blank"
+              rel="noreferrer">
+              <Instagram />
+            </a>
+            {/* <a href="#" target="_blank" rel="noreferrer"> */}
             <Facebook />
+            {/* </a> */}
           </div>
           <button onClick={scrollToTop}>
             Нагору <Arrow />

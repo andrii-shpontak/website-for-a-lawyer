@@ -3,7 +3,7 @@ import styles from './About.module.scss';
 
 export function About() {
   const handleCall = () => {
-    window.location.href = 'https://t.me/Violeta_kryvanych07';
+    window.location.href = 'tel:+380509136672';
   };
 
   const onScrollToForm = () => {
@@ -36,7 +36,7 @@ export function About() {
           <button
             onClick={handleCall}
             className={`${styles.freeConversation} ${styles.phoneButton}`}>
-            Зателефонувати: +380 77 777 77 77
+            Зателефонувати: +380 50 913 66 72
           </button>
           <div onClick={onScrollToCompany} className={styles.arrowWrapper}>
             <ArrowDown className={styles.arrowDown} />
