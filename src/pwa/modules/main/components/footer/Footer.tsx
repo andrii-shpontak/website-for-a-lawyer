@@ -39,9 +39,9 @@ export function Footer() {
       <footer className={styles.links}>
         <div className={styles.wrapper}>
           <div className={styles.icons}>
-            {/* <a href="#" target="_blank" rel="noreferrer"> */}
-            <Viber />
-            {/* </a> */}
+            <a href="https://t.me/Violeta_kryvanych07" target="_blank" rel="noreferrer">
+              <Viber />
+            </a>
             <a href="https://wa.me/380509136672" target="_blank" rel="noreferrer">
               <WhatsApp />
             </a>
@@ -51,9 +51,12 @@ export function Footer() {
               rel="noreferrer">
               <Instagram />
             </a>
-            {/* <a href="#" target="_blank" rel="noreferrer"> */}
-            <Facebook />
-            {/* </a> */}
+            <a
+              href="https://www.facebook.com/profile.php?id=61555717203608&locale=uk_UA"
+              target="_blank"
+              rel="noreferrer">
+              <Facebook />
+            </a>
           </div>
           <button onClick={scrollToTop}>
             Нагору <Arrow />
