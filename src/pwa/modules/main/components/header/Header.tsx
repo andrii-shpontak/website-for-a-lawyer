@@ -1,9 +1,10 @@
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { useRef, useState } from 'react';
 
-import { ReactComponent as MainIcon } from '../../../../../assets/images/icons/headerIcon.svg';
 import { ReactComponent as PhoneIcon } from '../../../../../assets/images/icons/phoneIcon.svg';
 import styles from './Header.module.scss';
+
+const logo = require('../../../../../assets/images/icons/new_logo.png');
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,9 +36,7 @@ export function Header() {
             }}
             timeout={500}>
             <div ref={dropDownLayerRef} className={styles.dropDownLayer}>
-              <MainIcon className={styles.mainIcon} />
-              <span className={styles.title}>Криванич Віолета</span>
-              <span className={styles.subtitle}>Військовий юрист</span>
+              <img src={logo} alt="logo" className={styles.mainIcon} />
               <div className={styles.phoneContainer}>
                 <PhoneIcon />
                 <span className={styles.phoneNumber}>
